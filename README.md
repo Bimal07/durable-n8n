@@ -2,7 +2,18 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-All of my n8n workflows
+Automated, local backups for self-hosted n8n workflows.
+
+This project provides an importable n8n workflow that exports all workflows to
+JSON files in a local `backups/` directory, making them easy to inspect and
+version with Git.
+
+## Quick overview
+
+- **Backup format:** one JSON file per n8n workflow
+- **Storage:** a host-mounted `backups/` directory
+- **Trigger:** scheduled daily backup, with optional manual execution
+- **Supported environments:** self-hosted n8n installations with local file access
 
 ## 🔄 Automated Backup Setup
 
@@ -91,4 +102,4 @@ This project is [MIT](LICENSE) licensed.
 
 Created by Bimal Gupta
 
-- **GitHub:** [@bimalgupta](https://github.com/bimalgupta)
+- **GitHub:** [@Bimal07](https://github.com/Bimal07)
